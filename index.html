@@ -35,7 +35,7 @@
     <div class="card">
       <h1>Happy Birthday Gwa-Shay!</h1>
       <p>Wishing you a life filled with love, joy, and happiness!</p>
-      <button id="playButton">Play Birthday Song</button>
+      <button id="playButton">Click Me!</button>
     </div>
 
     <script>
@@ -47,11 +47,11 @@
       playButton.addEventListener("click", () => {
         if (audio.paused) {
           audio.play();
-          playButton.textContent = "Pause Song";
+          playButton.textContent = "xD";
         } else {
           audio.pause();
           audio.currentTime = 0;
-          playButton.textContent = "Play Birthday Song";
+          playButton.textContent = "Happy Birthday Again";
         }
       });
     </script>
